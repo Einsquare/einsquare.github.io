@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'ein';
+    src:    url('../fonts/icomoon.eot?cpfg9f');
+    src:    url('../fonts/icomoon.eot?cpfg9f#iefix') format('embedded-opentype'),
+        url('../fonts/icomoon.ttf?cpfg9f') format('truetype'),
+        url('../fonts/icomoon.woff?cpfg9f') format('woff'),
+        url('../fonts/icomoon.svg?cpfg9f#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+	padding: 0;
+	margin:0;
+	font-family: 'Roboto', sans-serif;
+}
+
+html,body{
+	height: 100%;
+	width: 100%;
+	text-align: center;
+	background: #F7F5FB;
+}
+
+.main{
+	width: 80%;
+	margin: 0 auto;
+	padding: 15px;
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-moz-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.almost p{
+	color: #BBC1CC;
+	font-weight: 400;
+	font-size: 48px;
+	word-spacing: 0.6em;
+}
+.almost p span{
+	color: #42444D;
+}
+
+#counter{
+	width: 80%;
+	padding: 30px 0 30px 0;
+	margin: 0 auto;
+	color: #42444D;
+}
+.time{
+	display: inline-block;
+	padding: 20px;
+}
+.time .tiempo{
+	font-size: 52px;
+	font-weight: 300;
+}
+.logo{
+	width: 50%;
+	margin: 0 auto;
+	font-family: 'ein';
+	font-size: 24px;
+	color: #42444D;
+	padding: 16px;
+}
+.insta:before{
+	content:"\e900";
+}
+.tw:before{
+	content: "\e901";
+}
+.tum:before{
+	content: "\e902";
+}
